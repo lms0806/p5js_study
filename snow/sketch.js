@@ -11,8 +11,7 @@ function draw() {
   background(15);
 
   for(var i = 0; i < position.length; i++){
-    position[i].x = position[i].x + Math.random()*8 - 4;
-    position[i].y = position[i].y + Math.random()*8;
+    position[i].y = position[i].y + Math.random()*4;
 
     if(position[i].y > height) position[i].y = 0;
 
