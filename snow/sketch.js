@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  background(15);
+  background(0);
 
   for(var i = 0; i < position.length; i++){
     position[i].y = position[i].y + Math.random()*4;
